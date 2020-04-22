@@ -1,0 +1,54 @@
+.nb{
+    font-family: 'Nanum Brush Script', cursive;
+}
+.jg{
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+body{
+    margin:0;
+    margin-bottom:30px;
+    background: rgb(238, 213, 102);
+}
+a{
+    color: black;
+    text-decoration-line: none;
+}
+ul{
+    font-size: 40px;
+    border-right: 1px solid gray;
+    width: 100px;
+    margin:50px;
+    padding: 0px;
+}
+li{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    background-color: white;
+}
+h2{
+    text-decoration:underline;
+    text-underline-position: under;
+}
+p{
+    margin:0px;
+    padding:30px;
+    font-size: 20px;
+    line-height:150%;
+    background:white;
+    margin-right:20px;
+    padding-bottom:20px;
+}
+img{
+    border-radius: 10%
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid #article{
+    padding-left:25px;
+}   
