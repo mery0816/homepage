@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <title>my life</title>
+        <link rel="stylesheet" href="lifestyle.css">
+        <link href="http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="home" onclick="
+                document.querySelector('body').style.backgroundImage='url(white.jpg)';
+                document.querySelector('body').style.backgroundSize='cover';
+                document.querySelector('.line').style.backgroundColor='black';
+                if(this.class==='home');
+                    var dots = document.querySelectorAll('.dot');
+                    var cards = document.querySelectorAll('.card');
+                    var whats = document.querySelectorAll('.what');
+                    var whens = document.querySelectorAll('.when');
+                    var i = 0;
+                    while(i<dots.length){
+                        dots[i].style.backgroundColor='black';
+                        cards[i].style.backgroundColor='rgb(216, 216, 216)';
+                        cards[i].style.borderColor='black';
+                        whats[i].style.backgroundColor='gray';
+                        whens[i].style.color='white';
+                        i=i+1;
+                    }
+        ">The Fragment of The Meomory of My Life</h1>
+        <div class="button">
+            <button class="blue" onclick="
+                document.querySelector('body').style.backgroundImage='url(neo.jpg)';
+                document.querySelector('body').style.backgroundSize='cover';
+                document.querySelector('.line').style.backgroundColor='skyblue';
+                if(this.class==='blue');
+                    var dots = document.querySelectorAll('.dot');
+                    var cards = document.querySelectorAll('.card');
+                    var whats = document.querySelectorAll('.what');
+                    var whens = document.querySelectorAll('.when');
+                    var i = 0;
+                    while(i<dots.length){
+                        dots[i].style.backgroundColor='skyblue';
+                        cards[i].style.backgroundColor='powderblue';
+                        cards[i].style.borderColor='skyblue';
+                        whats[i].style.backgroundColor='skyblue';
+                        whens[i].style.color='black';
+                        i=i+1;
+                    }
+                ">NEO</button>
+            <button class="yel" onclick="
+                document.querySelector('body').style.backgroundImage='url(muji.jpg)';
+                document.querySelector('body').style.backgroundSize='cover';
+                document.querySelector('.line').style.backgroundColor='yellow';
+                if(this.class==='yellow');
+                    var dots = document.querySelectorAll('.dot');
+                    var cards = document.querySelectorAll('.card');
+                    var whats = document.querySelectorAll('.what');
+                    var whens = document.querySelectorAll('.when');
+                    var i = 0;
+                    while(i<dots.length){
+                        dots[i].style.backgroundColor='yellow';
+                        cards[i].style.backgroundColor='lightyellow';
+                        cards[i].style.borderColor='yellow';
+                        whats[i].style.backgroundColor='yellow';
+                        whens[i].style.color='black';
+                        i=i+1;
+                    }
+                ">MUJI</button>
+            <button class="pink" name="color" onclick="
+                document.querySelector('body').style.backgroundImage='url(apeach.jpg)';
+                document.querySelector('body').style.backgroundSize='cover';
+                document.querySelector('.line').style.backgroundColor='rgb(255, 104, 129)';
+                document.querySelector('.when').style.color='black';
+                if(this.class==='pink');
+                    var dots = document.querySelectorAll('.dot');
+                    var cards = document.querySelectorAll('.card');
+                    var whats = document.querySelectorAll('.what');
+                    var whens = document.querySelectorAll('.when');
+                    var i = 0;
+                    while(i<dots.length){
+                        dots[i].style.backgroundColor='rgb(255, 104, 129)';
+                        cards[i].style.backgroundColor='pink';
+                        cards[i].style.borderColor='rgb(255, 104, 129)';
+                        whats[i].style.backgroundColor='rgb(255, 104, 129)';
+                        whens[i].style.color='black';
+                        i=i+1;
+                    }
+            ">APEACH</button>
+        </div>
+        <div class="content">
+            <div class="card">
+                <img src="birth.jpg">
+                <div class="info">
+                    <div class="what">Birth</div>
+                    <div class="note">드디어 내가 등장^-^</div>
+                </div>
+                <div class="dot">
+                    <div class="when">2000.08.16</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="kin.jpg">
+                <div class="info">
+                    <div class="what">Kindergarten</div>
+                    <div class="note">유치원 팔자가 상팔자<br>
+                        놀이터에서 막 개미 잡아서 모으기<br>
+                        놀이 했었는데 도대체 그걸 어떻게<br>
+                        잡았을까;;</div>
+                    </div>
+                </div>
+                <div class="dot">
+                    <div class="when">2004~2006</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ele.jpg">
+                <div class="info">   
+                    <div class="what">Elemetary School</div>
+                    <div class="note">완전 소심이 시절..<br>
+                        선생님한테 목소리 작다고 맨날<br>
+                        혼났었는데 그때는 성격이 이렇게<br>
+                        바뀔거라고는 정말 상상도 못했지:O
+                    </div>
+                </div>
+                <div class="dot">
+                    <div class="when">2007~2012</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="mid.jpg">
+                <div class="info">   
+                    <div class="what">Middle School</div>
+                    <div class="note">질풍노도의 시기<br>
+                    제일 지우고 싶은 과사가 이때 탄생...<br>
+                    학교 끝나고 매일매일 노래방 달려갔다가<br>
+                    학원 가는 게 내 일상!!</div>
+                </div>
+                <div class="dot">
+                    <div class="when">2013~2015</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="high.jpg">
+                <div class="info">   
+                    <div class="what">High School</div>
+                    <div class="note">밤 10시까지 야자하고 토요일도 학교<br>
+                        가고 일요일도 학원 가고..<br>
+                        체육대회이 인생의 가장 큰 이벤트였던 시절ㅠㅠ
+                    </div>
+                </div>
+                <div class="dot">
+                    <div class="when">2016~2018</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="now.jpg">
+                <div class="info">   
+                    <div class="what">University</div>
+                    <div class="note">인생에서 제일 많이 논 게 언제냐고<br>
+                        물으면 바로 지금!<br>
+                        사실 코로나때매 제일 못 놀고 있는 것 같기두..
+                    </div>
+                </div>
+                <div class="dot">
+                    <div class="when">2019~</div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div>
+                <button class="house"><a href="home.html">HOME</a></button>
+            </div>
+      </div>
+    </body>
+</html>
